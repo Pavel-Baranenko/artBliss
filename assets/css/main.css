@@ -1343,9 +1343,12 @@ ul {
     top: 20%
   }
 
+  .strategy__content-item-1 .strategy__content-text,
   .strategy__content-item-2 .strategy__content-text,
   .strategy__content-item-3 .strategy__content-text,
-  .strategy__content-item-4 .strategy__content-text {
+  .strategy__content-item-4 .strategy__content-text,
+  .strategy__content-item-5 .strategy__content-text,
+  .strategy__content-item-6 .strategy__content-text {
     width: 130px
   }
 
@@ -1623,8 +1626,58 @@ ul {
   margin-left: auto;
 }
 
+.port {
+  position: absolute;
+  width: 50px !important;
+  left: 95px;
+  bottom: -5px;
+}
+
+.tactic__item-6 {
+  margin-right: -115px;
+}
+
+.tactic__item-6 .tactic__item-text {
+  padding-top: 50px;
+}
+
+.tactic__item-5 .text-new {
+  margin-bottom: 27px;
+}
+
+@media (max-width: 1270px) {
+  .header-wrap__pic-main {
+    width: 40%;
+    padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 1023px) {
+
+  .tactic__item-6 .tactic__item-text {
+    padding-top: 0;
+  }
+
+  .tactic__item-5 .text-new {
+    margin-bottom: 0;
+  }
+
+  .tactic__item-6 {
+    margin-right: 0;
+  }
+
+  .svg-new-6 {
+    width: 66%;
+  }
+}
+
 @media (max-width: 767px) {
   .header-wrap__pic-main {
-    width: 135%;
+    width: 128%;
+    padding-bottom: 0;
+  }
+
+  .svg-new-6 {
+    width: 100%;
   }
 }
